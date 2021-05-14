@@ -16,3 +16,7 @@ class my_module(models.Model):
      def _value_pc(self):
          for record in self:
              record.value2 = float(record.value) / 100
+
+class res.partner(models.Model):
+    _inherit = 'res.partner'
+    schoenmaat = fields.char('schoenmaat')
