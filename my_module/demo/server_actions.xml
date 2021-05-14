@@ -4,7 +4,7 @@
 
         <record id="server_action1" model="ir.actions.server">
             <field name="name">Schoenmaat te klein - alpiek</field>
-            <field name="model_id">79</field> #dit is het res.partner model
+            <field name="model_id">79</field> <!--dit is het res.partner model-->
             <field name="state">code</field>
             <field name="usage">ir_actions_server</field>
             <field name="xml_id">schoenmaat_klein</field>
@@ -13,7 +13,7 @@
 
         <record id="server_action1" model="ir.actions.server">
             <field name="name">Schoenmaat te groot - alpiek</field>
-            <field name="model_id">79</field> #dit is het res.partner model
+            <field name="model_id">79</field> <!--dit is het res.partner model-->
             <field name="state">code</field>
             <field name="usage">ir_actions_server</field>
             <field name="xml_id">schoenmaat_groot</field>
