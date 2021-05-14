@@ -16,7 +16,7 @@
 
     <record model="ir.ui.view" id="res_partner_form_alpiek">
       <field name="name">res.partner.form_alpiek</field>
-      <field name="inherit_id" ref="res.partner.form"/>
+      <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="model">res.partner</field>
       <field name="arch" type="xml">
         <xpath expr="//field[@name='category_id']" position="after">
