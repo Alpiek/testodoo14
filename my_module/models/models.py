@@ -19,4 +19,4 @@ class my_module(models.Model):
 
 class my_res_partner(models.Model):
     _inherit = 'res.partner'
-    schoenmaat = fields.char('schoenmaat')
+    schoenmaat = fields.Char('schoenmaat')
