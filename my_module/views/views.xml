@@ -15,7 +15,7 @@
     </record>
 
     <record model="ir.ui.view" id="res.partner.form_alpiek">
-      <field name="name">res.partner.form_alpiek</field>
+      <field name="name">res_partner_form_alpiek</field>
       <field name="inherit_id" ref="res.partner.form"/>
       <field name="model">res.partner</field>
       <field name="arch" type="xml">
