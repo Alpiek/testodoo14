@@ -14,9 +14,10 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="my_module.list">
-      <field name="name">my_module form</field>
-      <field name="model">my_module.my_module</field>
+    <record model="ir.ui.view" id="res.partner.form_alpiek">
+      <field name="name">res.partner.form_alpiek</field>
+      <field name="inherit_id" ref="res.partner.form"/>
+      <field name="model">res.partner</field>
       <field name="arch" type="xml">
         <xpath expr="//field[@name='category_id']" position="after">
           <field name="schoenmaat"/>
