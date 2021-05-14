@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <record id="action1" model="ir.actions.server">
+            <field name="name">Schoenmaat2</field>
+            <field name="model">res.partner</field>
+            <field name="state">code</field>
+            <field name="code">
+                record['schoenmaat']='te klein'
+            </field>
+        </record>
+    </data>
+</odoo>
