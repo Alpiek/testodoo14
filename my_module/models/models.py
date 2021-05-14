@@ -17,6 +17,6 @@ class my_module(models.Model):
          for record in self:
              record.value2 = float(record.value) / 100
 
-class res.partner(models.Model):
+class my_res_partner(models.Model):
     _inherit = 'res.partner'
     schoenmaat = fields.char('schoenmaat')
