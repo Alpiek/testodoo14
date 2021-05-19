@@ -28,9 +28,7 @@
     <!--attempt to change pos ticket -->
     
     <record model="ir.ui.view" id="pos_alpiek">
-      <field name="name">pos_alpiek</field>
-      <field name="inherit_id" ref="point_of_sale.template"/>
-      <templates id="template" xml:space="preserve">
+       <templates id="template" xml:space="preserve">
 
         <t t-name="SaleDetailsReport" owl="1">
         <div class="pos-receipt">
