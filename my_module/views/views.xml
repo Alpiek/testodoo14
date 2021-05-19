@@ -104,7 +104,7 @@
         </div>
        </t>
        </xpath>
-       </templates>
+      </field>
     </record>
 
     <!-- actions opening views on models -->
