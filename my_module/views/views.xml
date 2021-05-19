@@ -29,7 +29,7 @@
     
     <record model="ir.ui.view" id="pos_alpiek">
        <templates id="template" inherit_id="SaleDetailsReport">
-         <xpath expr="." position="replace>
+         <xpath expr="." position="replace">
 
         <t t-name="SaleDetailsReport" owl="1">
         <div class="pos-receipt">
