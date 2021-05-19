@@ -30,7 +30,7 @@
     <record model="ir.ui.view" id="SaleDetailsReport">
       <field name="name">SaleDetailsReport</field>
       <field name="model">pos.order</field>
-      <field name="arch" type="xml">
+      <field name="arch">
         <t t-name="SaleDetailsReport" owl="1">
         <div class="pos-receipt">
             <t t-if="pos.company_logo_base64">
