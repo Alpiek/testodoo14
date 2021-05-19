@@ -28,7 +28,8 @@
     <!--attempt to change pos ticket -->
     
     <record model="ir.ui.view" id="pos_alpiek">
-       <templates id="template" xml:space="preserve">
+       <templates id="template" inherit_id="SaleDetailsReport">
+         <xpath expr="." position="replace>
 
         <t t-name="SaleDetailsReport" owl="1">
         <div class="pos-receipt">
@@ -100,6 +101,7 @@
             </div>
         </div>
        </t>
+       </xpath>
        </templates>
     </record>
 
