@@ -8,7 +8,10 @@
             <field name="state">code</field>
             <field name="usage">ir_actions_server</field>
             <field name="xml_id">schoenmaat_klein</field>
-            <field name="code">record['schoenmaat']="te klein"</field>
+            <field name="code">
+record['schoenmaat']="te klein"
+raise Warning ('Hallo, een waarschuwing')
+            </field>
         </record>
 
         <record id="server_action2" model="ir.actions.server">
