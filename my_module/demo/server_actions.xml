@@ -10,7 +10,7 @@
             <field name="xml_id">schoenmaat_klein</field>
             <field name="code"> \
                 record['schoenmaat']="te klein" \
-                raise Warning('dit is een waarschuwing' \
+                raise Warning('dit is een waarschuwing') \
             </field>
         </record>
 
